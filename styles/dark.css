@@ -1,6 +1,7 @@
 :root.theme-dark {
   --accent-color: #ff0070;
   --bg-image: url(../images/cover-image-dark.png);
+  --bg-color: #000028;
   --button-hover-color: #ff007066;
   --button-text-color: #ff0070;
   --header-footer-color: #db00ff;
