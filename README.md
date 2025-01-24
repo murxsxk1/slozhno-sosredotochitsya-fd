@@ -1,1 +1,1 @@
-https://github.com/murxsxk1/posmotri-v-okno-fd
+https://github.com/murxsxk1/slozhno-sosredotochitsya-fd
