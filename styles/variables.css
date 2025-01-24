@@ -1,13 +1,13 @@
 :root {
-  --main-font: IBM Plex Mono;
   --accent-color: #ff0070;
   --bg-image: url(../images/cover-image-dark.png);
-  --text-color: #F1B2CE;
-  --heading-text-color: #000028;
-  --text-font-size: 18px;
-  --header-footer-color: #DB00FF;
-  --visibility: block;
-  --main-heading-text-color: #ff0070;
-  --button-text-color: #ff0070;
   --button-hover-color: #FF007066;
+  --button-text-color: #ff0070;
+  --header-footer-color: #DB00FF;
+  --heading-text-color: #000028;
+  --main-font: IBM Plex Mono;
+  --main-heading-text-color: #ff0070;
+  --text-color: #F1B2CE;
+  --text-font-size: 18px;
+  --visibility: block;
 }
