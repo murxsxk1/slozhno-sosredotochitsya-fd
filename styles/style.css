@@ -1,11 +1,11 @@
 .page {
   font-family: var(--main-font, sans-serif);
-  background-image: var(--bg-image);
-  background-position: center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
   background-color: var(--bg-color);
+  background-image: var(--bg-image);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 /*Шапка сайта*/
@@ -159,6 +159,12 @@
   line-height: 23.4px;
 }
 
+.section__block {
+  display: grid;
+  gap: 20px;
+  line-height: 23.4px;
+}
+
 .section__article {
   display: grid;
   gap: 10px;
@@ -169,7 +175,6 @@
 .section__article-title {
   font-size: var(--text-font-size, 18px);
   text-align: left;
-
 }
 
 .section__article-paragraph {
@@ -191,14 +196,8 @@
 
 .section__article-link:focus {
   border: 1px solid var(--text-color);
-  text-decoration-color: var(--text-color);
   outline: none;
-}
-
-.section__block {
-  display: grid;
-  gap: 20px;
-  line-height: 23.4px;
+  text-decoration-color: var(--text-color);
 }
 
 .section__article-xtra-title {
@@ -370,7 +369,7 @@
   }
 
   .causes-block-design {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
   }
 
   .footer {
